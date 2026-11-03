@@ -7,21 +7,25 @@ body {
 
 /* titulo */
 .cabecera{
-    color: rgb(236, 156, 6);
-    background-color: black;
-    font-size: 24px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 76px;
+    background: #ebdb03;
     display: flex;
-    justify-content: space-between;
-    padding: 20px;
     align-items: center;
+    justify-content: space-between;
+    padding: 12px max(5%, calc((100% - 1100px) / 2));
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.09);
+    z-index: 1000;
 }
 .cabecera_enlaces {
-    color: rgb(236, 156, 6);
-    text-decoration: underline;
-    justify-content: right;
     display: flex;
-    width: 1050px;
-    gap: 20px;
+    align-items: center;
+    gap: 28px;
+    font-weight: bold;
+    color: black;
 }
 a:hover {
     color: rgb(236, 156, 6);
@@ -46,7 +50,25 @@ a:hover {
     height: 50px;
 }
 
-/* Este es un comentario de una sola línea */
+/* arriba del footer*/
+.beneficis {
+    background: #ffcf33;
+    border-radius: 100px;
+    padding: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 18px;
+    text-align: center;
+}
+.contenidor_seccio {
+    margin: 0 auto 60px;  
+}
+.contenidor {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 22px;
+}
 
 /* Este es un comentario de una sola línea */
 
