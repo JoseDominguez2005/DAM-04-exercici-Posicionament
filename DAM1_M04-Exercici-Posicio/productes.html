@@ -1,39 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ca">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PRODCUTOS DE LA WEB DEL JOSE</title>
     <link rel="stylesheet" href="global.css">
+    
 </head>
 <body>
+    <nav class="menu">
+        <a class="logo" href="index.html">PRODUCTOS</a>
+        <div class="enlaces">
+            <a href="index.html">Inici</a>
+            <a class="activo" href="productes.html">Productes</a>
+            <a href="contacte.html">Contacte</a>
+        </div>
+    </nav>
 
-    <div class="cabecera">
-        <h1>NUESTROS PRODUCTOS</h1>
-        <nav>
-            <div class="cabecera_enlaces">
-                <a href="index.html">INDEX</a>
-                <a href="contacte.html">CONTACTO</a>
-                <a href="productes.html">PRODUCTOS</a>
-            </div>
+    <main class="contenidor">
+        <header class="capcalera">
+            <span class="tag">CATALOGO DE JOSE</span>
+            <h1>Tu proxima aventura en un click</h1>
+            <p>Elige tu LEGO favorito y empieza a darle vida y avenuras</p>
+        </header>
+
+        <nav class="filtres">
+            <a href="#tots">Todos</a>
+            <a href="#vehicles">Vehiculos y motores</a>
+            <a href="#fantasia">MARVEL</a>
+            <a href="#ciutat">HISTORIA</a>
         </nav>
-    </div>
 
+        <section class="graella" id="tots">
+            <article class="producte" id="vehicles">
+                <img src="imagenes/foto_vehiculo_productos.jpeg" alt="Cotxe esportiu vermell">
+                <div class="detall">
+                    <span class="categoria">Vehiculos y Motores</span>
+                    <h3>Coche de Obra</h3>
+                    <p>Coche amarillo,cargadora de obra</p>
+                    <div class="preu-linia"><span class="preu">39,99 €</span><button class="afegir">Afegir +</button></div>
+                </div>
+            </article>
 
+            <article class="producte" id="fantasia">
+                <img src="imagenes/foto2_vehiculo_productos.jpeg" alt="Figura de fantasia de joguina">
+                <div class="detall">
+                    <span class="categoria">Vehiculos y Motores</span>
+                    <h3>Super coche de Carerras</h3>
+                    <p>Coche rapido inspirado en los Motorsport</p>
+                    <div class="preu-linia"><span class="preu">59,99 €</span><button class="afegir">Afegir +</button></div>
+                </div>
+            </article>
 
+            <article class="producte" id="ciutat">
+                <img src="imagenes/foto_marvel_productos.jpeg" alt="Edificis d'una ciutat">
+                <div class="detall">
+                    <span class="categoria">MARVEL</span>
+                    <h3>SPIDERMAN</h3>
+                    <p>Monta tu spiderman EL MEJOR SUPERHEROE</p>
+                    <div class="preu-linia"><span class="preu">99,99 €</span><button class="afegir">Afegir +</button></div>
+                </div>
+            </article>
 
+            <article class="producte">
+                <img src="imagenes/foto3_marvel_productos.jpeg" alt="Peces de construcció de colors">
+                <div class="detall">
+                    <span class="categoria">MARVEL</span>
+                    <h3>AVENGERS</h3>
+                    <p>Colecciona a todos los AVENGERS</p>
+                    <div class="preu-linia"><span class="preu">5,00 €</span><button class="afegir">Afegir +</button></div>
+                </div>
+            </article>
 
+            <article class="producte">
+                <img src="imagenes/foto_historia_productos.jpeg" alt="Vehicle de joguina">
+                <div class="detall">
+                    <span class="categoria">HISTORIA</span>
+                    <h3>CARRO EN CABALLO</h3>
+                    <p>Dos guerreros en un carro en caballo</p>
+                    <div class="preu-linia"><span class="preu">100,00 €</span><button class="afegir">Afegir +</button></div>
+                </div>
+            </article>
 
+            <article class="producte">
+                <img src="imagenes/foto2_historia_productos.jpeg" alt="Construcció amb blocs">
+                <div class="detall">
+                    <span class="categoria">HISTORIA</span>
+                    <h3>DRAGON Y CASTILLO</h3>
+                    <p>Un dragon atacando y defendiendo un castillo,Tu inventas esta historia</p>
+                    <div class="preu-linia"><span class="preu">509,99 €</span><button class="afegir">Afegir +</button></div>
+                </div>
+            </article>
+        </section>
+        <p class="nota">* Productos, imagenes y precios perfectos para crear tu propio mundo</p>
+    </main>
 
-
-
-
-
-
-
-
-
-   <footer>
+    <footer>
         <div class="footer">
             <h2>ESTA ES NUESTRA TIENDA</h2>
             © 2026 Jose Dominguez
@@ -42,10 +104,9 @@
             <div class="foto_footer">
                 <img src="/imagenes/icons8-instagram-48.png"> 
                 <img src="/imagenes/icons8-whatsapp-48.png"> 
-                <img src="/imagenes/icons8-gmail-nuevo-48.png">
+                <img src="/imagenes/icons8-gmail-nuevo-48.jpeg">
             </div>
         </div>
     </footer>
-
 </body>
 </html>

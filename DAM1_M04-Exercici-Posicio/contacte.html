@@ -1,38 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ca">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CONTACTANOS DESDE NUESTRA WEB</title>
     <link rel="stylesheet" href="global.css">
+    
 </head>
 <body>
+    <nav class="menu">
+        <a class="logo" href="index.html">CONTACTANOS</a>
+        <div class="enlaces">
+            <a href="index.html">Inici</a>
+            <a href="productes.html">Productes</a>
+            <a class="activo" href="contacte.html">Contacte</a>
+        </div>
+    </nav>
 
-    <div class="cabecera">
-        <h1>CONTACTANOS</h1>
-        <nav>
-            <div class="cabecera_enlaces">
-                <a href="index.html">INDEX</a>
-                <a href="contacte.html">CONTACTO</a>
-                <a href="productes.html">PRODUCTOS</a>
+    <main class="contenidor">
+        <header class="capcalera">
+            <span class="tag">TE AYUDAMOS?</span>
+            <h1>CONTACTANOS SIN PREOCUPACIONES</h1>
+            <p>Envianos un mensaje para cualquier problema o pregunta,no te cortes.</p>
+        </header>
+
+        <section class="contacte-grid">
+            <div class="caixa">
+                <h2>Envianos un mensaje ✉️</h2>
+                <form action="#" method="post">
+                    <label for="nom">Nombre</label>
+                    <input type="text" id="nom" name="nom" placeholder="Como te llamas?" required>
+
+                    <label for="email">Correo electronico</label>
+                    <input type="email" id="email" name="email" placeholder="nombre@gmail.com" required>
+
+                    <label for="missatge">Mensaje</label>
+                    <textarea id="missatge" name="missatge" placeholder="Cuentanos lo que te pasa" required></textarea>
+
+                    <br><br>
+                    <button class="boton" type="submit">Enviar missatge →</button>
+                </form>
             </div>
-        </nav>
-    </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+            <aside class="caixa">
+                <h2>NUESTRA INFORMACION-CONTACTANOS</h2>
+                <p class="info">📍 <strong>Dirreccion</strong><br>Carrer de la Creativitat, 25<br>08940 Cornellà de Llobregat</p>
+                <p class="info">☎️ <strong>Telefono</strong><br>93 123 45 67</p>
+                <p class="info">✉️ <strong>Correo Electronico</strong><br>consulta@legojose.cat</p>
+                <p class="info">🕒 <strong>Nuestro Horario</strong><br>Dilluns a dissabte: 10:00 – 20:00</p>
+                <p class="info">📍 <strong>MAPA</strong></p>
+                
+                <div class="mapa">
+                    <img src="imagenes/mapazo.jpeg" width="500" >
+                </div>
+
+            </aside>
+        </section>
+    </main>
+
     <footer>
         <div class="footer">
             <h2>ESTA ES NUESTRA TIENDA</h2>
@@ -42,10 +67,9 @@
             <div class="foto_footer">
                 <img src="/imagenes/icons8-instagram-48.png"> 
                 <img src="/imagenes/icons8-whatsapp-48.png"> 
-                <img src="/imagenes/icons8-gmail-nuevo-48.png">
+                <img src="/imagenes/icons8-gmail-nuevo-48.jpeg">
             </div>
         </div>
     </footer>
-
 </body>
 </html>
